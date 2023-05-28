@@ -316,9 +316,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
-# Parts
+# Chime Parts and Pocket Mode
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    ChimeParts \
+    ChimePocketMode
 
 # Perf
 PRODUCT_PACKAGES += \
